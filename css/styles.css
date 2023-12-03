@@ -1,8 +1,9 @@
 /* All my css goes here */
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #d4c3c8;
 }
 
 header{
@@ -33,7 +34,35 @@ nav a {
     height: 50px;
 }
 
+.home-img{
+    width: 350px;
+    height: 280px;
+    text-align: center;
+    border-radius: 20px;
 
+}
+
+.heading-one{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-container{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+}
+.home-child{
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.home-child p{
+    text-align: left;
+    padding: 14px;
+}
 
 
 
@@ -48,3 +77,32 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #881231;
+    color: white;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
