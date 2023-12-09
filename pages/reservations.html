@@ -5,17 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Raleway:ital,wght@1,500&family=Roboto:wght@900&family=Source+Sans+3:wght@600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Raleway:ital,wght@1,500&family=Roboto:wght@900&family=Source+Sans+3:wght@600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Reservations</title>
 </head>
 
 <body>
-    <!-- Header section -->
+    <!--Here is my Header section -->
     <header>
         <div class="logo">
             <img src="../img/logo.png" alt="Logos">
@@ -35,13 +32,76 @@
 
 
     </header>
+   
 
+<main id="main">
+    <div>
+        <div>
+    
+            <h1>Rental Agreement Information</h1>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.
+                </li>
+                <li>A valid drivers license is required in hand at the time of rental.
+                </li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.
+                </li>
+                <li>Fuel charge is not included.
+                </li>
+                <li>Unlimited mileage.
+                </li>
+                <li>Liability insurance is included.
+                </li>
+                <li>Damage insurance is available for purchase.
+                </li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.
+                </li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.
+                </li>
+                <li>Rentals may be returned to either physical location.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section>
+        <form action="my-form" method="post">
+            <h2>Fill This Form</h2>
+            <label for="fullname">Full-Name: </label>
+            <input type="text" name="fullname" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" placeholder="celestin@example.com" required>
+        
+            <label for="number-of-rentals">Number of Rentals:</label>
+            <input type="number" name="number-of-rentals" required>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" required>
+        
+            <label for="rental-type">Rental Type:</label>
+            <select name="rental-type" id="rental-type">
+                <option value="blank"></option>
+                <option value="scooter">Scooter</option>
+                <option value="atv">ATV</option>
+                <option value="jeep">Jeep</option>
+            </select>
+        
+            <label for="home-country">Home/Country:</label>
+            <input type="text" name="home-country" required>
+        
+            <label for="date">Date:</label>
+            <input type="date" name="date" required>
+        
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        
+            <button class="my-button" type="submit">Submit Reservation</button>
+        </form>
+        
+    </section>
+</main>
 
-
-
-
-
-    <!-- Footer section -->
+    <!--This is my Footer section -->
     <footer>
 
         <nav>
@@ -57,6 +117,8 @@
             CEO | Celestin Gerald | BYU-Idaho | WDD-230 Final Project
 
         </div>
+        <div id="footer_date">
+        </div>
 
         <nav>
             <ul>
@@ -66,7 +128,7 @@
             </ul>
         </nav>
     </footer>
-
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
