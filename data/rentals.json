@@ -1,3 +1,59 @@
+
 {
-    "_comment": "My json file" 
+    "rentals": [
+        {
+            "name": "Honda Metro Scooter",
+            "maxPersons": 1,
+            "halfDayPrice": 20,
+            "fullDayPrice": 30,
+            "imageUrl": "https://cdn.glitch.global/a8ffea27-b7b8-4746-abf8-0e105799b6c8/HondaMetroScooter.png?v=1701637094535",
+            "description": "In many places a regular driver's license is sufficient to operate a scooter with a certain engine size.The Honda CHF50 is a scooter made by Honda and marketed as the Metropolitan in the United States, the Jazz in Canada, the Scoopy in Australia and Asia, and the Crea Scoopy in Japan.",
+            "detailScooter":  "Engine 49 cc 3 0 cu in liquid cooled 4 stroke single." 
+        },
+        {
+            "name": "Honda Dio Scooter",
+            "maxPersons": 2,
+            "halfDayPrice": 30,
+            "fullDayPrice": 40,
+            "imageUrl": "https://cdn.glitch.global/a8ffea27-b7b8-4746-abf8-0e105799b6c8/Hondadior.png?v=1701636725683",
+            "description": "The Honda Dio is a scooter manufactured by Honda and was introduced in 1988. It was originally built in Japan, as a 2-stroke model until 2001. It is now assembled by Sundiro Honda Motorcycle Co., Ltd. in China.",
+            "detailHondaMetro": "Electric Scooters: Powered by electric motors, these scooters are becoming increasingly popular for short-distance commuting."
+        },
+        {
+            "name": "Honda PCX150 Scooter",
+            "maxPersons": 2,
+            "halfDayPrice": 40,
+            "fullDayPrice": 50,
+            "imageUrl": "https://cdn.glitch.global/a8ffea27-b7b8-4746-abf8-0e105799b6c8/rentals3.png?v=1701636368928",
+            "description": "The Honda PCX is a scooter made by the Japanese manufacturer Honda; it was first introduced for sale in November 2009. Production began in September 2009 at A.P. Honda Co., Ltd. in Bangkok, Thailand.",
+            "detailHondaPCX150": "Most scooters have a small internal combustion engine, either two-stroke or four-stroke. Transmission Scooters typically have an automatic transmission."
+        },
+        {
+            "name": "Honda Pionneer ATV",
+            "maxPersons": 4,
+            "halfDayPrice": 40,
+            "fullDayPrice": 50,
+            "imageUrl": "https://cdn.glitch.global/a8ffea27-b7b8-4746-abf8-0e105799b6c8/rentals1.png?v=1701635591586",
+            "description": " typically refers to a line of Side-by-Side (SxS) vehicles rather than traditional ATVs. The Honda Pioneer series is designed for utility and recreational purposes, offering a comfortable and versatile off-road experience.",
+            "detailHondaPionneer": "Most scooters have a small internal combustion engine, either two-stroke or four-stroke. Transmission Scooters typically have an automatic transmission."
+        },
+        {
+            "name": "Jeep Wrangler - 4 door with a/c",
+            "maxPersons": 5,
+            "halfDayPrice": 70,
+            "fullDayPrice": 100,
+            "imageUrl": "https://cdn.glitch.global/a8ffea27-b7b8-4746-abf8-0e105799b6c8/wrangler4door.png?v=1701637428892",
+            "description": "Whereas there's plenty of hubbub around the V-8-equipped $80,000 Jeep Wrangler 392 and how Jeep finally has stiff competition in the Ford Bronco, there's much less chatter surrounding the other Wranglers.",
+            "detailJeepWrangler4door": "It boasts a 12.3-inch screen that serves as the central hub for multimedia and vehicle information A/C Multi-Zone A/C Climate Control Rear Defrost."
+        },
+        {
+            "name": "Jeep Wrangler - 2 door",
+            "maxPersons": 4,
+            "halfDayPrice": 60,
+            "fullDayPrice": 85,
+            "imageUrl": "https://cdn.glitch.global/a8ffea27-b7b8-4746-abf8-0e105799b6c8/wrangler2door.jpg?v=1701637562653",
+            "description": "Used Jeep Wrangler 2 Door Sport Utility for Sale on carmax.com. Search used cars research vehicle models and compare cars all online at carmax.com",
+            "detailJeepWrangler2door": "The 2024 Jeep Wrangler has four engine options a V6 a turbocharged 4-cylinder a plug-in hybrid 4-cylinder, and a V8."
+        }
+    ]
 }
