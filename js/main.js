@@ -27,7 +27,7 @@ fetch(oneDayForecastUrl)
 
 
     // this part is my js code for rental page
-    const directoryURL = '';
+    const directoryURL = 'https://raw.githubusercontent.com/celestindev/scoots/main/data/rentals.json';
     fetch(directoryURL)
     
     fetch('rentals.json')
