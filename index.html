@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Raleway:ital,wght@1,500&family=Roboto:wght@900&family=Source+Sans+3:wght@600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Raleway:ital,wght@1,500&family=Roboto:wght@900&family=Source+Sans+3:wght@600&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Home | Scoots</title>
 </head>
@@ -59,20 +56,38 @@
             <p>Ecological Contemplations to minimize their impact on the island's ecosystem, some rental companies may
                 emphasize environmentally friendly practices by providing electric scooters or promoting responsible
                 riding.Insurance coverage for the rented scooter can be purchased by renters, offering peace of mind in
-                the event of unforeseen events.</p>
+                the event of unforeseen events. <a href="https://yourfriendthenomad.com/scooter-rental-cozumel/" target="_blank">read more about Scooter</a></p>
         </div>
     </section>
 
 
+    <!--This is my Call To Action -->
+    <div class="cta">
+    <a href="../pages/reservations.html">
+        <button>RIDE & ENJOY</button></button>
+    </a>
+    </div>
     <!-- Weather section goes here -->
-    <section>
-        <h1>Weather Section goes here do not forget</h1>
-    </section>
+    <aside>
+        
+        <div class="my-weather-box">
+            <div class="box-weather">
+                <h2>Check The Weather Before going out</h2>
+                <h3>Current Weather</h3>
+                <div class="current-temperature" id="Temp"></div>
+                <div class="condition-description" id="Condition"></div>
+                <div class="humidity" id="Humidity"></div>
+            </div>
+            <div class="one-day-forecast">
+                <h2>One Day Forecast</h2>
+                <div id="one-day-forecast"></div>
+            </div>
+        </div>
+        <script src="../scoots/js/main.js"></script>
+    </aside>
 
 
-
-
-    <!-- Footer section -->
+    <!-- This is my Footer section very important -->
     <footer>
 
         <nav>
@@ -88,6 +103,9 @@
             CEO | Celestin Gerald | BYU-Idaho | WDD-230 Final Project
 
         </div>
+        <div id="footer_date">
+
+        </div>
         <nav>
             <ul>
                 <li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
@@ -96,6 +114,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
