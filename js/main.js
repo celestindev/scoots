@@ -25,8 +25,53 @@ fetch(oneDayForecastUrl)
     })
     .catch(error => console.error('Error fetching one day forecast:', error));
 
+
+    // this part is my js code for rental page
+    const directoryURL = '';
+    fetch(directoryURL)
+    
+    fetch('rentals.json')
+      .then(response => response.json())
+      .then(data => displayRentals(data.rentals))
+      .catch(error => console.error('Error fetching data:', error));
+
+  
+    function displayRentals(rentals) {
+      const rentalsContainer = document.getElementById('container');
+
+      rentals.forEach(rental => {
+        const rentalCard = document.createElement('div');
+        rentalCard.classList.add('card');
+
+      
+        const rentalImg = document.createElement('img');
+        rentalImg.src = `path/to/${rental.name.toLowerCase().replace(/\s/g, '-')}.jpg`;
+        rentalImg.alt = rental.name;
+        rentalImg.classList.add('img');
+
+        const rentalInfo = document.createElement('div');
+        rentalInfo.innerHTML = `
+          <h3>${rental.name}</h3>
+          <p>Nbr. Persons: ${rental.nbrOfPersons}</p>
+          <p>Half Day: $${rental.halfPrice}</p>
+          <p>Full Day: $${rental.fullPrice}</p>
+          <p>Image: $${rental.imageUrl}</p>
+          <p>Description: $${rental.description}</p>
+          <p>Details: $${rental.detailJeepWrangler4door} </P>
+        `;
+
+        
+        rentalCard.appendChild(rentalImg);
+        rentalCard.appendChild(rentalInfo);
+
+       
+        rentalsContainer.appendChild(rentalCard);
+      });
+    } 
+
     // This my code for current date very important
 
     var footer = document.getElementById('footer_date');
     var currentDate = new Date();
     footer.innerHTML = currentDate.toLocaleString();
+

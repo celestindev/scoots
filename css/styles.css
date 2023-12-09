@@ -209,3 +209,22 @@ button.my-button {
 button.my-button:hover {
     background-color: #ffca28; 
 }
+/* for rental page very important */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 30%; 
+  }
+
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
