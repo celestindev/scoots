@@ -1,230 +1,248 @@
+@media screen and (max-width: 481px){
+
+}
+
 /* All my css goes here very important*/
-body{
-    font-family: 'Source Sans 3', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #d4c3c8;
+body {
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d4c3c8;
 }
 
-header{
-    background-color: brown;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul{
-    list-style-type: none;
-    display: flex;
+nav ul {
+  list-style-type: none;
+  display: flex;
 }
 
-nav ul li{
-    margin-right: 20px;
+nav ul li {
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-.logo img{
-    width: 50px;
-    height: 50px;
+.logo img {
+  width: 50px;
+  height: 50px;
 }
 
-.home-img{
-    width: 350px;
-    height: 280px;
-    text-align: center;
-    border-radius: 20px;
-
+.home-img {
+  width: 350px;
+  height: 280px;
+  text-align: center;
+  border-radius: 20px;
 }
 
-.heading-one{
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 30px;
-    padding-bottom: 60px;
+.heading-one {
+  font-size: x-large;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
-.home-container{
-    display: flex;
-    margin: 10px;
-    padding: 20px;
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 30px;
-    padding-bottom: 60px;
+.home-container {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
-
 
 /* CTA */
 
 .cta {
-    text-align: center;
+  text-align: center;
 }
 
 .cta button {
-    background-color: rgb(184, 80, 74);
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 22px;
-    cursor: pointer;
-    font-size: 24px;
-    font-weight: bolder;
+  background-color: rgb(184, 80, 74);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bolder;
 }
-.cta button a{
-    text-decoration: none;
-}
-
-.home-child{
-    justify-content: space-between;
-    justify-items: center;
+.cta button a {
+  text-decoration: none;
 }
 
-.home-child p{
-    text-align: left;
-    padding: 14px;
+.home-child {
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.home-child p {
+  text-align: left;
+  padding: 14px;
 }
 
 .my-weather-box {
-    background-color: #bbbbf1;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #bbbbf1;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.box-weather, .one-day-forecast {
-    margin-bottom: 20px;
+.box-weather,
+.one-day-forecast {
+  margin-bottom: 20px;
 }
 
-.box-weather h2, .one-day-forecast h2 {
-    color: #000000;
+.box-weather h2,
+.one-day-forecast h2 {
+  color: #000000;
 }
-
-
-
 
 /* Footer section really important*/
 
-footer{
-    background-color: rgb(27, 19, 19);
-    color: white;
-    padding: 10px;
-    text-align: center;
+footer {
+  background-color: rgb(27, 19, 19);
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .fa {
-    padding: 10px;
-    font-size: 20px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 20px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-
-  .fa-instagram {
-    background: #881231;
-    color: white;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-
-  /* form */
-
-  #main {
-    background-color: #fff;
-    margin: 60px;
-    padding: 60px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-    
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20px;
 }
 
+.fa:hover {
+  opacity: 0.7;
+}
 
-  form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    max-width: 100%;
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #881231;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* form */
+
+#main {
+  background-color: #fff;
+  margin: 60px;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
 }
 
 h2 {
-    text-align: center;
-    color: #333;
+  text-align: center;
+  color: #333;
 }
 
 label {
-    display: block;
-    margin-top: 10px;
-    color: #555;
+  display: block;
+  margin-top: 10px;
+  color: #555;
 }
 
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 button.my-button {
-    background-color: #ffc107; 
-    color: #fff; 
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
+  background-color: #ffc107;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
 }
 
 button.my-button:hover {
-    background-color: #ffca28; 
+  background-color: #ffca28;
 }
 /* for rental page very important */
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+#container {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px;
-    width: 30%; 
-  }
+.card {
+  border: 2px solid #130275;
+  padding: 15px;
+  margin: 10px;
+  width: 30%;
+}
 
-  .img {
-    max-width: 100%;
-    height: auto;
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* CTA Button */
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
   }
+  
+  .my-button:hover {
+    background-color: #45a049; 
+  }
+  
