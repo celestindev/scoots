@@ -65,8 +65,7 @@ function displayRentals(rentals) {
       <p>Half Day: $${rental.halfPrice}</p>
       <p>Full Day: $${rental.fullPrice}</p>
       <p>Description: ${rental.description}</p>
-      
-
+  
 
 `;
 
